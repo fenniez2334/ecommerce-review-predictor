@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# Data files
+data/
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.parquet
+
+# Model files
+checkpoints/
+*.pkl
+*.pt
+*.h5
+*.joblib
+
+# MLflow artifacts
+mlruns/
+mlartifacts/
+
+# System and IDE files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Docker
+*.pid
+*.sock
+
+# Output files
+output/
+results/
